@@ -64,7 +64,7 @@ const Home = () => {
         {/* Footer */}
         <footer className="pt-16 text-center">
           <p className="text-[10px] text-gray-700">
-            3M© | Todos os direitos reservados
+            3M | Todos os direitos reservados
           </p>
         </footer>
         <img

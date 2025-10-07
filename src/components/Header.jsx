@@ -4,7 +4,7 @@ import Verification from "../assets/verification.png";
 const Header = () => {
   return (
     <div className="flex flex-col ml-8 z-10 mt-16 gap-2">
-      <img src={Logo} alt="logo" className="w-[100px]" />
+      <img src={Logo} alt="logo" className="max-w-[100px]"/>
       <div className="flex gap-1 items-end">
         <div className="flex flex-col justify-start">
           <h1 className="font-bold text-xl">3M Gestão</h1>
