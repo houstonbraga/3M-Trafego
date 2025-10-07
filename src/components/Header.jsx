@@ -1,4 +1,4 @@
-import Logo from "../assets/logo.svg";
+import Logo from "/logo.svg";
 import Verification from "../assets/verification.png";
 
 const Header = () => {
