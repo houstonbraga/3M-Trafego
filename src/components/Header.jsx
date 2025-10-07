@@ -1,4 +1,4 @@
-import Logo from "/logo.png";
+import Logo from "/logo.svg";
 import Verification from "../assets/verification.png";
 
 const Header = () => {
@@ -14,7 +14,6 @@ const Header = () => {
       </div>
       <p className="text-xs text-gray-500">Especialista em tráfego pago |</p>
       <p className="text-xs text-gray-500">Estrategista digital |</p>
-      
     </div>
   );
 };
