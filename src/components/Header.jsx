@@ -10,7 +10,7 @@ const Header = () => {
           <h1 className="font-bold text-xl">3M Gestão</h1>
           <h1 className="font-bold text-xl">de tráfego</h1>
         </div>
-        <img src={Verification} alt="verification-icon" />
+        <img src={Verification} width={24} alt="verification-icon" className="mb-1"/>
       </div>
       <p className="text-xs text-gray-500">Especialista em tráfego pago |</p>
       <p className="text-xs text-gray-500">Estrategista digital |</p>
