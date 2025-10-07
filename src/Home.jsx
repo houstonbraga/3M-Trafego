@@ -28,7 +28,11 @@ const Home = () => {
         }}
       >
         <div className="animate-pulse">
-          <img src={LogoLoading} alt="Logo Loading" className="w-[300px] h-[171px] mx-auto" />
+          <img
+            src={LogoLoading}
+            alt="Logo Loading"
+            className="w-[250px] h-[121px] mx-auto"
+          />
         </div>
       </div>
     );
