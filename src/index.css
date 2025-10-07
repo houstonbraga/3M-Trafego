@@ -14,6 +14,20 @@
   font-style: normal;
 }
 
-*{
+* {
   font-family: Monumental;
+}
+
+@keyframes slide-x {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(8px);
+  }
+}
+
+.animate-slide-x {
+  animation: slide-x 2s ease-in-out infinite;
 }
