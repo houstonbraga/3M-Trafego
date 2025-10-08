@@ -4,8 +4,8 @@ import Verification from "../assets/verification.png";
 const Header = () => {
   return (
     <div className="flex flex-col ml-8 z-10 mt-16 gap-2">
-      <div className="content-center">
-        <img src={Logo} alt="logo"/>
+      <div className="w-[100px]">
+        <img src={Logo} alt="logo" className="object-fit"/>
       </div>
       <div className="flex gap-1 items-end">
         <div className="flex flex-col justify-start">
