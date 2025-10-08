@@ -1,11 +1,16 @@
-import Logo from "/logo.svg";
+import Logo from '/logoIcon.svg'
 import Verification from "../assets/verification.png";
 
 const Header = () => {
   return (
     <div className="flex flex-col ml-8 z-10 mt-16 gap-2">
-      <div className="w-[100px]">
-        <img src={Logo} alt="logo" className="object-fit"/>
+      <div
+        className="w-[100px] h-[100px] rounded-xl flex items-center justify-center"
+        style={{
+          background: "linear-gradient(180deg, #823cfa 0%, #4f4efe 100%)",
+        }}
+      >
+        <img src={Logo} alt="logo" />
       </div>
       <div className="flex gap-1 items-end">
         <div className="flex flex-col justify-start">
