@@ -1,4 +1,4 @@
-import Logo from '/logoIcon.svg'
+import Logo from '../assets/logo-loading.png'
 import Verification from "../assets/verification.png";
 
 const Header = () => {
